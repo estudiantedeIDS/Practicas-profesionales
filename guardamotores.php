@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/estilos3.css" />
     <style>
       .fondo{       /*Imagen de fondo*/
-          background: url('Imagenes/guardamotor.jpg');
+          background: url('Imagenes/guardamotores.jpg');
           height 100px;
       }
     </style>
@@ -23,13 +23,17 @@
         </div>
         <nav>
           <ul>            
-            <li><a href="codigo.html">Ingrese código para consulta</a></li>
-            <a href="codigo.html">
-                <buttom type="buttom" a href></buttom>
+            <li><a href="ingreso_cod_guardamotor.php">Consultar Guardamotor</a></li>
+            <a href="ingreso_cod_guardamotor.php">
+                
               </a>
-            <li><a href="mostrar">Mostrar todos</a></li>
-            <a href="mostrar.html"></a>
-                <buttom type="buttom" a href></buttom>
+            <li><a href="mostrar_todos_guardamotores.php">Mostrar todos</a></li>
+            <a href="mostrar_todos_guardamotores.php"></a>
+            
+            <li><a href="operacionesguardamotor.php">Operaciones</a></li>
+            <a href="operacionesguardamotor.php"></a>               
+            
+                
               </a>
           </ul>
         </nav>
@@ -38,8 +42,8 @@
           <button type="button" a href>Regresar al menú anterior</button>
         </a>
       </div>
-      <center>
-        <img src="Imagenes/guardamotor.jpg" width="1200" />
+      <center><br><br><br><br>
+        <img src="Imagenes/guardamotores.jpg" width="1000" />
       </center>
     </header>
   </body>

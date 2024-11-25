@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ingreso nuevo Arrancador</title>    
+    <title>Ingreso nuevo Interruptor</title>    
     <link rel="stylesheet" href="css/estilos9.css">  
 
 
@@ -13,12 +13,12 @@
         <!--Fomulario de codigo de dispositivo-->
 
        <div>
-        <form action="php/captura_nvo_arrancador.php" method="POST">
+        <form action="php/captura_nvo_interruptor.php" method="POST">
         <center><br><br><br><br><br> 
-              <h2>Ingreso nuevo Arrancador:</h2> <br><br>
+              <h2>Ingreso nuevo Interruptor:</h2> <br><br>
               <label for="codigo_dispositivo">Ingrese nuevo código</label>
               <input type="text" id="codigo_dispositivo" name= "codigo_dispositivo" required><br><br><br>                
-              <label for="area">Ingrese el Area del Arrancador</label>
+              <label for="area">Ingrese el Area del Interruptor</label>
               <input type="text" id="area" name= "area" required><br><br><br>                              
               <label for="fecha_compra">Ingrese la fecha de compra</label>
               <input type="text" id="fecha_compra" name= "fecha_compra" required><br><br><br>                              
@@ -30,7 +30,7 @@
         <center>
       </form>                
       </div>
-      <a href="arrancadores.php"><br><br><br>
+      <a href="interruptores.php"><br><br><br>
           <div class button></div>
           <center><br>
           <button type="button" a href>Regresar al menú anterior</button>

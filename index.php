@@ -1,12 +1,3 @@
-<?php
-session_start();
-if(isset($_SESSION['usuario'])){
-    header("location:menu_inicial.php");
-}
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +36,7 @@ if(isset($_SESSION['usuario'])){
         <form action="php/login.php" method="POST" class="formulario_login">
               <h2>Iniciar sesión</h2>
               <input type="text" placeholder="Usuario" name="usuario">
-              <input type="password" placeholder="Contraseña" name="contraseña"> 
+              <input type="password" placeholder="Contraseña" name="contrasena"> 
               <button>Entrar</button>           
         </form>
         <!--Registro -->
@@ -54,7 +45,7 @@ if(isset($_SESSION['usuario'])){
             <input type="text" placeholder="Nombre completo" name="nombre_completo">
             <input type="text" placeholder="Correo Electrónico" name="correo">
             <input type="text" placeholder="Usuario" name="usuario">
-            <input type="password" placeholder="Contraseña" name="contraseña">
+            <input type="password" placeholder="Contraseña" name="contrasena">
             <button>Registrarse</button>
         </form>       
        </div>

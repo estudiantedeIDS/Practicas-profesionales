@@ -1,5 +1,20 @@
+<?php
+session_start();
+
+if(!isset($_SESSION['usuario'])){
+    echo'
+      <script>
+           alert("Por favor, debes iniciar sesión...");
+           window.location = "index.php";
+       </script>
+    ';
+    
+    session_destroy();
+    die();
+}
 
 ?>
+
 
 <!DOCTYPE html>   <!-- Asi se hace un comentario -->
 <html lang="es">
@@ -32,12 +47,14 @@
         </nav>
         
         <a href ="index.php">
-            <div class button></div>           
-            <button type="button" a href>Regresar a Inicio de sesión</button>                     
-         </a>   
-
         
+        <div class button>                    
+            <center>
+            <button type="button" a href>Regresar a Inicio de sesión</button>                     
+            <center>
+         </a>           
     </div>
+
     <center>
         <img src="Imagenes/mantenimiento.jpg" width="1875">
     </center>

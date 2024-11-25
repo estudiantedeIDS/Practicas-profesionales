@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Menú Arrancadores -->
+<!-- Menú Relevadores -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -14,18 +14,18 @@
     <header>
       <div class="ancho">
         <div class="logo">
-          <p><a href="index.html">INTERRUPTORES</a></p>
+          <p><a href="index.html">RELEVADORES</a></p>
         </div>
         <nav>
           <ul>            
-            <li><a href="ingreso_cod_interruptor.php">Consultar Interruptor</a></li>
-            <a href="ingreso_cod_interruptor.php"></a>
+            <li><a href="ingreso_cod_relevador.php">Consultar Relevador</a></li>
+            <a href="ingreso_cod_relevador.php"></a>
 
-            <li><a href="mostrar_todos_interruptores.php">Mostrar todos</a></li>
-            <a href="mostrar_todos_interruptores.php"></a>  
+            <li><a href="mostrar_todos_relevadores.php">Mostrar todos</a></li>
+            <a href="mostrar_todos_relevadores.php"></a>               
             
-            <li><a href="operacionesinterruptor.php">Operaciones</a></li>
-            <a href="operacionesinterruptor.php"></a>                                        
+            <li><a href="operacionesrelevador.php">Operaciones</a></li>
+            <a href="operacionesrelevador.php"></a>               
             
           </ul>
         </nav>
@@ -33,9 +33,9 @@
           <div class button></div>
           <button type="button" a href>Regresar al menú anterior</button>
         </a>
-      </div>
-      <center><br><br>
-        <img src="Imagenes/interruptores.jpg" width="1000" />
+      </div><br><br><br><br><br><br>
+      <center>
+        <img src="Imagenes/relevadores.jpg" width="800" />
       </center>
     </header>
   </body>
